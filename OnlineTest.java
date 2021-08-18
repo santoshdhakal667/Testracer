@@ -205,7 +205,7 @@ class OnlineTest extends JFrame implements ActionListener {
 	}
 
 	public static void main(String s[]) {
-		new OnlineTest("Online Test App");
+		new OnlineTest("Online Test Racer");
 	}
 
 }
