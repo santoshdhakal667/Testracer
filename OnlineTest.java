@@ -140,18 +140,18 @@ class OnlineTest extends JFrame implements ActionListener {
 			radioButton[3].setText("0");
 		}
 		if (current == 5) {
-			label.setText("Que6: How to read entire file in one line using java 8?");
-			radioButton[0].setText("Files.readAllLines()");
-			radioButton[1].setText("Files.read()");
-			radioButton[2].setText("Files.readFile()");
-			radioButton[3].setText("Files.lines()");
+			label.setText("Que6:  Which of the following creates a List of 3 visible items and multiple selections abled?");
+			radioButton[0].setText("new List(3, true)");
+			radioButton[1].setText("new List(true, 3)");
+			radioButton[2].setText("new List(false, 3)");
+			radioButton[3].setText("new List(3, false)");
 		}
 		if (current == 6) {
-			label.setText("Que7:  Which feature of java 7 allows to not explicitly close IO resource?");
-			radioButton[0].setText("try catch finally");
-			radioButton[1].setText("IOException");
-			radioButton[2].setText("AutoCloseable");
-			radioButton[3].setText("Streams");
+			label.setText("Que7: In which process, a local variable has the same name as one of the instance variables?");
+			radioButton[0].setText("Serialization");
+			radioButton[1].setText("Variable Shadowing");
+			radioButton[2].setText("Abstraction");
+			radioButton[3].setText("Multi-threading");
 		}
 		if (current == 7) {
 			label.setText("Que8:  Which of the following is not a core interface of Hibernate?");
@@ -161,11 +161,11 @@ class OnlineTest extends JFrame implements ActionListener {
 			radioButton[3].setText("Session");
 		}
 		if (current == 8) {
-			label.setText("Que9: SessionFactory is a thread-safe object.");
-			radioButton[0].setText("true");
-			radioButton[1].setText("false");
-			radioButton[2].setText("don't know");
-			radioButton[3].setText("false");
+			label.setText("Que9: Which package contains the Random class?");
+			radioButton[0].setText("java.util package");
+			radioButton[1].setText("java.lang package");
+			radioButton[2].setText("java.awt package");
+			radioButton[3].setText("java.io package");
 		}
 		if (current == 9) {
 			label.setText("Que10: Which of the following is not a state of object in Hibernate?");
