@@ -112,25 +112,25 @@ class OnlineTest extends JFrame implements ActionListener {
 			radioButton[3].setText("Dynamic binding between objects");
 		}
 		if (current == 1) {
-			label.setText("Que2:  Which feature of java 7 allows to not explicitly close IO resource?");
-			radioButton[0].setText("try catch finally");
-			radioButton[1].setText("IOException");
-			radioButton[2].setText("AutoCloseable");
-			radioButton[3].setText("Streams");
+			label.setText("Que2:  Which of the following is not a Java features?");
+			radioButton[0].setText("Dynamic");
+			radioButton[1].setText("Use of pointers");
+			radioButton[2].setText("Architecture Neutral");
+			radioButton[3].setText("Object-oriented");
 		}
 		if (current == 2) {
-			label.setText("Que3: SessionFactory is a thread-safe object.");
-			radioButton[0].setText("true");
-			radioButton[1].setText("false");
-			radioButton[2].setText("don't know");
-			radioButton[3].setText("false");
+			label.setText("Que3: _____ is used to find and fix bugs in the Java programs.");
+			radioButton[0].setText("JDB");
+			radioButton[1].setText("JDK");
+			radioButton[2].setText("JRE");
+			radioButton[3].setText("JVM");
 		}
 		if (current == 3) {
-			label.setText("Que4: Which is the new method introduced in java 8 to iterate over a collection?");
-			radioButton[0].setText("for (String i : StringList)");
-			radioButton[1].setText("foreach (String i : StringList)");
-			radioButton[2].setText("StringList.forEach()");
-			radioButton[3].setText("List.for()");
+			label.setText("Que4: Which of the following is a valid declaration of a char?");
+			radioButton[0].setText("char cc = '\itea';");
+			radioButton[1].setText("char cr = \u0223;");
+			radioButton[2].setText("char ch = '\utea';");
+			radioButton[3].setText("char ca = 'tea';");
 		}
 		if (current == 4) {
 			label.setText("Que5:  What is the substitute of Rhino javascript engine in Java 8?");
