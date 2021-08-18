@@ -133,11 +133,11 @@ class OnlineTest extends JFrame implements ActionListener {
 			radioButton[3].setText("char ca = 'tea';");
 		}
 		if (current == 4) {
-			label.setText("Que5:  What is the substitute of Rhino javascript engine in Java 8?");
-			radioButton[0].setText(" Nashorn");
-			radioButton[1].setText("V8");
-			radioButton[2].setText("Inscript");
-			radioButton[3].setText("Narcissus");
+			label.setText("Que5:  What does the expression float a = 35 / 0 return?");
+			radioButton[0].setText(" Infinity");
+			radioButton[1].setText("Not a Number");
+			radioButton[2].setText("Run time exception");
+			radioButton[3].setText("0");
 		}
 		if (current == 5) {
 			label.setText("Que6: How to read entire file in one line using java 8?");
