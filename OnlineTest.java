@@ -105,11 +105,11 @@ class OnlineTest extends JFrame implements ActionListener {
 	void set() {
 		radioButton[4].setSelected(true);
 		if (current == 0) {
-			label.setText("Que1:  Which of the following is not introduced with Java 8?");
-			radioButton[0].setText("Stream API");
-			radioButton[1].setText("Serialization");
-			radioButton[2].setText("Spliterator");
-			radioButton[3].setText("Lambda Expression");
+			label.setText("Que1: Which of the following option leads to the portability and security of Java?");
+			radioButton[0].setText("Use of exception handling");
+			radioButton[1].setText("Bytecode is executed by JVM");
+			radioButton[2].setText("The applet makes the Java code secure and portable");
+			radioButton[3].setText("Dynamic binding between objects");
 		}
 		if (current == 1) {
 			label.setText("Que2:  Which feature of java 7 allows to not explicitly close IO resource?");
